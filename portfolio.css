@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(255, 208, 251);
+}
+
+.first{
+    width: 100%;
+    height: 700px;
+    background-image: url("images/assorted-cosmetic-lot-2536965.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply; 
+    background-size: cover;
+}
+
+.paragra{
+    font-size: 30px;
+    color: #00ffd5;
+    font-family: Merriweather;
+    text-align: center;
+}
+
+.hihi{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("images/white-and-gray-bluetooth-speaker-on-brown-wooden-surface-1279107.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply; 
+  background-size: cover;
+}
+.momo{
+    background-color: seagreen;
+    margin-top: 50px;
+}
+
+.pp{
+   font-size: 30px;
+   color: #00ffd5;
+   font-family: Merriweather;
+   text-align: center;
+ }
+.kiki{
+  width: 100%;
+  height: 25%;
+}
+
+.por{
+   font-size: 30px;
+   color: rgba(0, 255, 255, 0.972);
+   font-family: Merriweather;
+   text-align: center;
+}
+.pa {
+    bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Merriweather;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 0, 255);
+    opacity:0;
+    transition: 1s ease;
+}
+.first:hover .pa {
+    opacity: 1;
+}
+
+.con{
+   background-color: black;
+   width: 100%;
+   height: 100px;
+   margin-top: 25px; 
+   text-align: center;
+}
+.amdmak{
+   width: 130px;
+   height: 40px;
+   font-size: 25px;
+   font-family: Merriweather;
+   text-align: center;
+   text-decoration: none;
+   margin: 20px;
+   background-color: rgba(0, 0, 0, 0.582);
+   transition: 3s;
+}
+.linkin{
+   color: inherit;
+   text-decoration: none;
+   text-align: center;
+   color: rgb(52, 19, 82);
+   transition: 1s;
+
+}
+.amdmak:hover .linkin{
+   color: cyan;
+}
+.ima{
+    width: 100%;
+    height: 600px;
+}
+.videos{
+    width: 100%;
+    height: 800px;
+      display: flex;
+  flex-wrap: wrap;
+
+}
+.videos:hover .lll{
+    opacity: 1;
+}
+.lll{
+   width: 40%;
+   height: 300px;
+   margin: 20px;
+   opacity: 0;
+   transition: 3s;
+
+}
+
+.footer {
+    background: #111;
+    color: var(--clr-accent);
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: var(--fs-h3);
+
+}
+
+.footer a { 
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer__link {
+    font-weight: var(--fw-bold);
+}
+
+.footer__link:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+.social-list__item {
+    margin: 0 .5em;
+}
+
+.social-list__link {
+    padding: .5em;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom Properties, update these for your own design */
+
+:root {
+    --ff-primary: 'Lora', serif;
+    --ff-secondary: 'Roboto Slab', serif;
+    
+    --fw-reg: 400;
+    --fw-bold: 700;
+    
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    
+    --bs: 0.45em 0.45em 0.95em rgba(0,0,0,.25),
+          0.325em 0.325em 0.45em rgba(0,0,0,.15);
+    --bz: 1.45em 1.45em 1.95em rgba(0,0,0,.25),
+          1.325em 1.325em 1.45em rgba(0,0,0,.15);
+
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+ 
+
+
+
+
+
+
