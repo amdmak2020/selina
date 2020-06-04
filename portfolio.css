@@ -11,12 +11,7 @@ body{
     background-size: cover;
 }
 
-.paragra{
-    font-size: 30px;
-    color: #00ffd5;
-    font-family: Merriweather;
-    text-align: center;
-}
+
 
 .hihi{
   display: flex;
@@ -49,7 +44,6 @@ body{
    text-align: center;
 }
 .pa {
-    bottom: 0px;
     text-align: center;
     font-size: 40px;
     font-family: Merriweather;
@@ -59,6 +53,10 @@ body{
     transition: 1s ease;
 }
 .first:hover .pa {
+    opacity: 1;
+}
+
+.videos:hover .pa {
     opacity: 1;
 }
 
@@ -97,22 +95,25 @@ body{
 }
 .videos{
     width: 100%;
-    height: 800px;
-      display: flex;
-  flex-wrap: wrap;
+    height: 700px;
+    background-image: url("images/donuts-and-bagel-display-205961.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply; 
+    background-size: cover;
+  }
 
+.last{
+    width: 100%;
+    height: 700px;
+    background-image: url("images/flat-lay-photography-of-several-product-bottles-on-withered-1667071.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply; 
+    background-size: cover;
 }
-.videos:hover .lll{
+.last:hover .pa {
     opacity: 1;
 }
-.lll{
-   width: 40%;
-   height: 300px;
-   margin: 20px;
-   opacity: 0;
-   transition: 3s;
 
-}
 
 .footer {
     background: #111;
